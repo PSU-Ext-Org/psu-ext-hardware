@@ -1,0 +1,145 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: PSU-EXT Hardware
+Source: https://github.com/PSU-Ext-Org/psu-ext
+
+Files: .gitignore
+ AUTHORS.MD
+ CHANGES.txt
+ CONTRIBUTING.md
+ LICENSES/dep5.py
+ NOTICE
+ README.MD
+ THIRD-PARTY-NOTICES.md
+ docs/images/.gitkeep
+ docs/images/psu-ext_16x9_fhd.JPG
+ docs/images/psu-ext_pcb_1366x768.jpg
+ electronics/esp32.kicad_sch
+ electronics/exports/schematic.pdf
+ electronics/fp-lib-table
+ electronics/front-end.kicad_sch
+ electronics/power.kicad_sch
+ electronics/psu-ext.kicad_pcb
+ electronics/psu-ext.kicad_prl
+ electronics/psu-ext.kicad_pro
+ electronics/psu-ext.kicad_sch
+ electronics/sym-lib-table
+ electronics/usb.kicad_sch
+ manufacturing/BOM-psu-ext.csv
+ manufacturing/CPL-psu-ext.csv
+ manufacturing/gerber/psu-ext-CuBottom.gbr
+ manufacturing/gerber/psu-ext-CuIn1.gbr
+ manufacturing/gerber/psu-ext-CuIn2.gbr
+ manufacturing/gerber/psu-ext-CuTop.gbr
+ manufacturing/gerber/psu-ext-EdgeCuts.gbr
+ manufacturing/gerber/psu-ext-MaskBottom.gbr
+ manufacturing/gerber/psu-ext-MaskTop.gbr
+ manufacturing/gerber/psu-ext-NPTH-drl_map.pdf
+ manufacturing/gerber/psu-ext-NPTH.drl
+ manufacturing/gerber/psu-ext-PTH-drl_map.pdf
+ manufacturing/gerber/psu-ext-PTH.drl
+ manufacturing/gerber/psu-ext-PasteBottom.gbr
+ manufacturing/gerber/psu-ext-PasteTop.gbr
+ manufacturing/gerber/psu-ext-SilkBottom.gbr
+ manufacturing/gerber/psu-ext-SilkTop.gbr
+ mechanical/enclosure/exports/bs-joined-frame-bottom.3mf
+ mechanical/enclosure/exports/housingcover-top-left.3mf
+ mechanical/enclosure/exports/housingcover-top-right.3mf
+ mechanical/enclosure/exports/terminal-nut.3mf
+ mechanical/enclosure/psu-ext-enclosure.FCStd
+ mechanical/labels/psu_ext_label_10up_2cols_5rows_3mm.svg
+ mechanical/labels/sticker_sheet_20_full_copies_2rows_5mm_spacing.svg
+ mechanical/labels/terminal_sticker_5x_row_12x28mm_gap5mm_inverted_v9.svg
+Copyright: 2026 PSU-EXT Authors
+License: CERN-OHL-S-2.0
+X-PSU-EXT-Section: cern-ohl-s-2.0
+X-PSU-EXT-Block: original-source
+Comment:
+ This source describes Open Hardware and is licensed under CERN-OHL-S v2.
+ You may redistribute and modify this source and make products using it under
+ the terms of CERN-OHL-S v2 (https://ohwr.org/cern_ohl_s_v2.txt).
+ This source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING
+ OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE.
+ Please see CERN-OHL-S v2 for applicable conditions.
+ Source location: https://github.com/PSU-Ext-Org/psu-ext
+
+Files: LICENCE
+Copyright: 2020 CERN
+License: CERN-OHL-S-2.0
+X-PSU-EXT-Section: cern-ohl-s-2.0
+X-PSU-EXT-Block: licence-text
+Comment: Complete unmodified CERN Open Hardware Licence Version 2 - Strongly Reciprocal text.
+
+Files: LICENSES/dep5
+Copyright: 2026 PSU-EXT Authors
+License: CERN-OHL-S-2.0
+X-PSU-EXT-Section: cern-ohl-s-2.0
+X-PSU-EXT-Block: project-metadata
+
+Files: LICENSES/CC-BY-SA-4.0.txt
+Copyright: 2026 PSU-EXT Authors
+License: CC0-1.0
+X-PSU-EXT-Section: cc0-1.0
+X-PSU-EXT-Block: cc-by-sa-license-reference
+Comment: Reference to the canonical CC BY-SA 4.0 legal code.
+
+Files: electronics/lib/external/footprints-maxeelabs.pretty/logo_20x11.2mm.kicad_mod
+Copyright: 2026 Maxim Pavlov
+License: LicenseRef-MaxEELabs-Logo-Proprietary
+X-PSU-EXT-Section: proprietary
+X-PSU-EXT-Block: maxeelabs-logo
+Comment:
+ The MaxEELabs logo is excluded from CERN-OHL-S v2. No licence to use, copy,
+ modify, distribute, or otherwise exploit the logo is granted. All rights are
+ reserved by Maxim Pavlov, subject only to rights that cannot be excluded by law.
+
+Files: electronics/lib/external/footprints-oshw.pretty/logo_oshw_22x13.2mm.kicad_mod
+Copyright: 2011 Macklin Chaffee
+License: CC-BY-SA-4.0
+X-PSU-EXT-Section: cc-by-sa-4.0
+X-PSU-EXT-Block: oshw-gear-logo
+Comment:
+ Source: https://oshwa.org/resources/open-source-hardware-logo/
+ The OSHW gear logo is separately licensed and is not CERN-OHL-S v2 Covered Source.
+
+Files: electronics/lib/external/symbols-snapeda.kicad_sym
+ electronics/lib/external/footprints-snapeda.pretty/XTAL_FC-135_32.7680KA-A0.kicad_mod
+ electronics/lib/external/footprints-snapeda.pretty/RELAY_HF49FD_005-1H12T.kicad_mod
+ electronics/lib/external/footprints-snapeda.pretty/CONV_RFM-0505S.kicad_mod
+ electronics/lib/external/footprints-snapeda.pretty/HRO_TYPE-C-31-M-12.kicad_mod
+ electronics/lib/external/models-snapeda/FC-135_32.7680KA-A0.step
+ electronics/lib/external/models-snapeda/005-1H12T-3DModel-STEP-56544.step
+ electronics/lib/external/models-snapeda/RFM-0505S.step
+ electronics/lib/external/models-snapeda/TYPE-C-31-M-12.step
+Copyright: SnapMagic Search and applicable component manufacturers
+License: CC-BY-SA-4.0
+X-PSU-EXT-Section: cc-by-sa-4.0
+X-PSU-EXT-Block: snapmagic-design-files
+Comment:
+ Separately licensed SnapMagic Design Files. Additional permission: SnapMagic
+ Design Exception 1.0, https://www.snapeda.com/about/terms/.
+ Bundles and sources: Epson FC-135 32.7680KA-A0,
+ https://www.snapeda.com/parts/FC-135%2032.7680KA-A0/Epson/view-part/?ref=snap;
+ Hongfa HF49FD/005-1H12T,
+ https://www.snapeda.com/parts/HF49FD/005-1H12T/Hongfa/view-part/?ref=snap;
+ RECOM RFM-0505S, https://www.snapeda.com/parts/RFM-0505S/Recom+Power/view-part/?ref=snap;
+ HRO TYPE-C-31-M-12,
+ https://www.snapeda.com/parts/TYPE-C-31-M-12/HRO+Electronics+Co.%252C+Ltd./view-part/?ref=snap.
+ Full bundle mapping and attribution are in THIRD-PARTY-NOTICES.md.
+
+License: CERN-OHL-S-2.0
+ The complete, unmodified CERN-OHL-S v2 text is provided in LICENCE.
+
+License: CC-BY-SA-4.0
+ The canonical CC BY-SA 4.0 legal code is provided at
+ https://creativecommons.org/licenses/by-sa/4.0/legalcode.
+
+License: CC0-1.0
+ The CC0 1.0 Universal legal code is provided at
+ https://creativecommons.org/publicdomain/zero/1.0/legalcode.
+
+License: LicenseRef-MaxEELabs-Logo-Proprietary
+ All rights reserved. The MaxEELabs logo is not licensed under CERN-OHL-S v2
+ or any other open-source licence in this repository. No permission is granted
+ to use, copy, modify, distribute, or otherwise exploit the logo. This does
+ not restrict the rights granted under CERN-OHL-S v2 for the separate technical
+ design source, and does not limit rights that cannot be excluded by law.

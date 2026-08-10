@@ -1,0 +1,7 @@
+.idea
+
+electronics/~psu-ext.*.lck
+electronics/psu-ext-backups
+electronics/.history
+
+/mechanical/enclosure/*.FCBak

@@ -1,0 +1,18 @@
+PSU-EXT Hardware
+Copyright (c) 2026 PSU-EXT Authors
+
+Except for the separately licensed material identified in
+THIRD-PARTY-NOTICES.md and the licence texts themselves, the original PSU-EXT
+hardware-design source in this repository is licensed under CERN Open Hardware
+Licence Version 2 - Strongly Reciprocal (CERN-OHL-S v2). The complete licence
+text is in LICENCE.
+
+Source location: https://github.com/PSU-Ext-Org/psu-ext
+
+MaxEELabs is a brand and trademark of Maxim Pavlov. The MaxEELabs logo asset at
+electronics/lib/external/footprints-maxeelabs.pretty/logo_20x11.2mm.kicad_mod
+is proprietary and excluded from CERN-OHL-S v2. No permission is granted to
+use the MaxEELabs name or logo as a trademark, or to use, copy, modify, or
+distribute that logo asset. This does not restrict the rights granted by
+CERN-OHL-S v2 in the separate technical design source or prevent factual
+attribution of the original PSU-EXT design.

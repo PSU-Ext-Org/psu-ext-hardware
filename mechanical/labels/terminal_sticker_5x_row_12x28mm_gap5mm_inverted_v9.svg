@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80mm" height="28mm" viewBox="0 0 800 280">
+  <defs>
+    <style>
+      .sticker-bg { fill: #000; stroke: #fff; stroke-width: 2.0; }
+      .section { font-family: Arial, Helvetica, sans-serif; font-size: 36px; font-weight: 700; fill: #fff; text-anchor: middle; }
+      .terminal-circle { fill: none; stroke: #fff; stroke-width: 3.2; }
+      .terminal-sign { font-family: Arial, Helvetica, sans-serif; font-size: 50px; font-weight: 700; fill: #fff; text-anchor: middle; dominant-baseline: middle; }
+      .arrow { fill: #fff; }
+    </style>
+
+    <g id="sticker">
+      <!-- Sticker body: exact 12 x 28 mm equivalent proportions -->
+      <rect x="6" y="6" width="108" height="268" rx="6" ry="6" class="sticker-bg"/>
+
+      <!-- Section labels with symmetric top/bottom padding -->
+      <text x="60" y="16" class="section" dominant-baseline="text-before-edge">IN</text>
+      <text x="60" y="264" class="section" dominant-baseline="text-after-edge">OUT</text>
+
+      <!-- Top terminals: large + / - in thicker circles -->
+      <text x="32" y="82" class="terminal-sign">−</text>
+      <text x="88" y="82" class="terminal-sign">+</text>
+
+      <!-- Centered arrow composite within a 60 x 60 square bounding area -->
+      <rect x="52.5" y="125.25" width="15" height="10" class="arrow"/>
+      <polygon points="60,154.75 30,135.25 90,135.25" class="arrow"/>
+
+      <!-- Bottom terminals: large + / - in thicker circles -->
+      <text x="32" y="204" class="terminal-sign">−</text>
+      <text x="88" y="204" class="terminal-sign">+</text>
+    </g>
+  </defs>
+
+  <use href="#sticker" x="0" y="0"/>
+  <use href="#sticker" x="170" y="0"/>
+  <use href="#sticker" x="340" y="0"/>
+  <use href="#sticker" x="510" y="0"/>
+  <use href="#sticker" x="680" y="0"/>
+</svg>

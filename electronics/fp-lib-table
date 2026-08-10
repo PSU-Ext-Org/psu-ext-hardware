@@ -1,0 +1,6 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "snapeda-footprints") (type "KiCad") (uri "${KIPRJMOD}/lib/external/footprints-snapeda.pretty") (options "") (descr "SnapEDA derived footprints https://www.snapeda.com/"))
+	(lib (name "footprints-oshw") (type "KiCad") (uri "${KIPRJMOD}/lib/external/footprints-oshw.pretty") (options "") (descr "OSHW Logo Footprint https://oshwa.org/"))
+	(lib (name "footprints-maxeelabs") (type "KiCad") (uri "${KIPRJMOD}/lib/external/footprints-maxeelabs.pretty") (options "") (descr "MaxEELabs logo https://max-eelabs.com/"))
+)

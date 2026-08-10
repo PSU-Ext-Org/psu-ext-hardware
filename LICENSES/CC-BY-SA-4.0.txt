@@ -1,0 +1,16 @@
+Creative Commons Attribution-ShareAlike 4.0 International
+
+Canonical legal code:
+https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+Human-readable deed:
+https://creativecommons.org/licenses/by-sa/4.0/
+
+This repository includes this reference so that recipients of the separately
+licensed OSHW and SnapMagic assets can readily locate the complete, unmodified
+licence text. The canonical URL above is the licence text for CC BY-SA 4.0.
+
+Copyright 2026 PSU-EXT Authors. To the extent copyright applies to this
+repository-created reference page, it is dedicated to the public domain under
+CC0 1.0 Universal. This dedication does not apply to the CC BY-SA 4.0 legal
+code or to the separately licensed assets it identifies.
