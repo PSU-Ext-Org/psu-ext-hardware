@@ -4,5 +4,12 @@ PSU-EXT change record
 When publishing a modification, add (do not remove) a dated, brief description
 of each design change. This supports CERN-OHL-S v2 section 3.3(b).
 
-2026-08-09: Added repository licensing, ownership, and third-party dependency
+2026-08-09 v. 1.2.0: Added repository licensing, ownership, and third-party dependency
 notices for the public CERN-OHL-S v2 release.
+
+2026-08-15 v. 1.2.1: 
+- Added low impedance offset to INA240A2, using resistor divider and
+LM321, small offset would allow correct current measurments between 0 and 5 mA, alternativelty
+by seting offset to 3V one can measure current into 2 directions but with less resolution.
+- Marked C16 - IO0 debounce cap as do-not-populate as it forces ESP32 into download mode on 
+first start

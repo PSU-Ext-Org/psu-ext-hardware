@@ -7,7 +7,7 @@
 	(title_block
 		(title "PSU-EXT ESP-32")
 		(date "2026-08-08")
-		(rev "1.2.0")
+		(rev "1.2.1")
 		(company "MaxEELabs")
 		(comment 3 "This hardware design is licensed under CERN-OHL-S v2.\nCopyright © 2026 PSU-EXT Authors: https://github.com/PSU-Ext-Org/psu-ext")
 	)
@@ -2825,12 +2825,6 @@
 		(uuid "322b9c13-ce73-423b-ad6a-407f69f14c10")
 	)
 	(junction
-		(at 199.39 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "38e12449-0b99-4a63-b826-86963faaa5d4")
-	)
-	(junction
 		(at 196.85 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2913,6 +2907,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cfa62178-cfab-4d72-8fd9-ee18f20ee137")
+	)
+	(junction
+		(at 199.39 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd3e22ef-f0df-4592-9d3b-c53181ddff73")
 	)
 	(junction
 		(at 48.26 33.02)
@@ -6327,10 +6327,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "4e88a725-8aba-481a-88b1-2cd6a28223ac")
 		(property "Reference" "C16"
 			(at 183.134 98.806 90)
