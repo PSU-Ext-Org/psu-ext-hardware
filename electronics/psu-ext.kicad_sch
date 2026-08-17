@@ -7,7 +7,7 @@
 	(title_block
 		(title "PSU-EXT Root")
 		(date "2026-08-08")
-		(rev "1.2.0")
+		(rev "1.2.1")
 		(company "MaxEELabs")
 		(comment 3 "This hardware design is licensed under CERN-OHL-S v2.\nCopyright © 2026 PSU-EXT Authors: https://github.com/PSU-Ext-Org/psu-ext")
 	)
