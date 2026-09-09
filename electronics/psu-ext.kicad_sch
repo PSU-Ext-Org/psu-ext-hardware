@@ -7,9 +7,9 @@
 	(title_block
 		(title "PSU-EXT Root")
 		(date "2026-08-08")
-		(rev "1.2.1")
+		(rev "1.3.0")
 		(company "MaxEELabs")
-		(comment 3 "This hardware design is licensed under CERN-OHL-S v2.\nCopyright © 2026 PSU-EXT Authors: https://github.com/PSU-Ext-Org/psu-ext")
+		(comment 3 "This hardware design is licensed under CERN-OHL-S v2.\nCopyright © 2026 PSU-EXT Authors: https://github.com/PSU-Ext-Org")
 	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole"
@@ -497,7 +497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b39a72c-88aa-43ef-bca0-57dcba659532")
-		(property "Reference" "H11"
+		(property "Reference" "H7"
 			(at 91.44 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -555,7 +555,7 @@
 		(instances
 			(project "psu-ext"
 				(path "/3cca1064-5b2a-48a0-8872-f4d00db38e9c"
-					(reference "H11")
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -573,7 +573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1192c013-e501-47c9-98f4-839370042fef")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR04"
 			(at 38.1 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -633,7 +633,7 @@
 		(instances
 			(project "psu-ext"
 				(path "/3cca1064-5b2a-48a0-8872-f4d00db38e9c"
-					(reference "#PWR05")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -651,7 +651,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a9efdc4-ed03-4944-9856-56d4e80483e3")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR02"
 			(at 25.4 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -711,7 +711,7 @@
 		(instances
 			(project "psu-ext"
 				(path "/3cca1064-5b2a-48a0-8872-f4d00db38e9c"
-					(reference "#PWR040")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -729,7 +729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d581ec9-5d16-418f-9977-06604567b2d4")
-		(property "Reference" "H10"
+		(property "Reference" "H6"
 			(at 66.04 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -787,7 +787,7 @@
 		(instances
 			(project "psu-ext"
 				(path "/3cca1064-5b2a-48a0-8872-f4d00db38e9c"
-					(reference "H10")
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -804,7 +804,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "562ae045-a7b9-449a-970b-005e852dc36e")
-		(property "Reference" "H8"
+		(property "Reference" "H4"
 			(at 38.1 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -866,7 +866,7 @@
 		(instances
 			(project "psu-ext"
 				(path "/3cca1064-5b2a-48a0-8872-f4d00db38e9c"
-					(reference "H8")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -883,7 +883,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "614aff40-40cf-418c-9047-13c598341a72")
-		(property "Reference" "H7"
+		(property "Reference" "H3"
 			(at 38.1 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -945,7 +945,7 @@
 		(instances
 			(project "psu-ext"
 				(path "/3cca1064-5b2a-48a0-8872-f4d00db38e9c"
-					(reference "H7")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -963,7 +963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71275883-67fb-4f37-9d90-d88d144b1a9b")
-		(property "Reference" "H9"
+		(property "Reference" "H5"
 			(at 66.04 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1021,7 +1021,7 @@
 		(instances
 			(project "psu-ext"
 				(path "/3cca1064-5b2a-48a0-8872-f4d00db38e9c"
-					(reference "H9")
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -1039,7 +1039,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e22d89b-904a-4226-8767-dc9ca7e06608")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR03"
 			(at 38.1 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -1099,7 +1099,7 @@
 		(instances
 			(project "psu-ext"
 				(path "/3cca1064-5b2a-48a0-8872-f4d00db38e9c"
-					(reference "#PWR04")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -1117,7 +1117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b925654d-b844-40ca-be7a-802908adea13")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR01"
 			(at 25.4 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -1177,7 +1177,7 @@
 		(instances
 			(project "psu-ext"
 				(path "/3cca1064-5b2a-48a0-8872-f4d00db38e9c"
-					(reference "#PWR039")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1194,7 +1194,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2d4baca-f800-489a-8943-c1f10ec02d7a")
-		(property "Reference" "H5"
+		(property "Reference" "H1"
 			(at 25.4 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1256,7 +1256,7 @@
 		(instances
 			(project "psu-ext"
 				(path "/3cca1064-5b2a-48a0-8872-f4d00db38e9c"
-					(reference "H5")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -1273,7 +1273,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc9ac395-3439-4be1-ae27-4eeaf5140e91")
-		(property "Reference" "H6"
+		(property "Reference" "H2"
 			(at 25.4 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1335,8 +1335,54 @@
 		(instances
 			(project "psu-ext"
 				(path "/3cca1064-5b2a-48a0-8872-f4d00db38e9c"
-					(reference "H6")
+					(reference "H2")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 25.4)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "284031bb-95f3-41d1-9c76-36a65272dfe7")
+		(property "Sheetname" "FrontEnd Volt"
+			(at 177.8 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "front-end-voltage.kicad_sch"
+			(at 177.8 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "psu-ext"
+				(path "/3cca1064-5b2a-48a0-8872-f4d00db38e9c"
+					(page "6")
 				)
 			)
 		)
@@ -1403,7 +1449,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "8382cf51-befd-44eb-9cec-01756b7c42d3")
-		(property "Sheetname" "FrontEnd"
+		(property "Sheetname" "FrontEnd ADC"
 			(at 139.7 24.6884 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1414,7 +1460,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "front-end.kicad_sch"
+		(property "Sheetfile" "front-end-adc-c.kicad_sch"
 			(at 139.7 51.3846 0)
 			(show_name no)
 			(do_not_autoplace no)

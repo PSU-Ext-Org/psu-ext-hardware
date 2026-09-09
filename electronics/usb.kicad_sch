@@ -7,9 +7,9 @@
 	(title_block
 		(title "PSU-EXT USB")
 		(date "2026-08-08")
-		(rev "1.2.1")
+		(rev "1.3.0")
 		(company "MaxEELabs")
-		(comment 3 "This hardware design is licensed under CERN-OHL-S v2.\nCopyright © 2026 PSU-EXT Authors: https://github.com/PSU-Ext-Org/psu-ext")
+		(comment 3 "This hardware design is licensed under CERN-OHL-S v2.\nCopyright © 2026 PSU-EXT Authors: https://github.com/PSU-Ext-Org")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -2977,7 +2977,7 @@
 			(justify left bottom)
 		)
 		(uuid "20b1fe1e-94dc-47a1-b099-b765a8251108")
-		(property "Net Class" ""
+		(property "Netclass" ""
 			(at 35.56 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2999,7 +2999,7 @@
 			(justify left bottom)
 		)
 		(uuid "6e9c5efd-1a5e-44bb-83bb-2e1497fa4d8f")
-		(property "Net Class" ""
+		(property "Netclass" ""
 			(at 87.63 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3208,7 +3208,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ef45ac6-d717-490f-a3c7-a9b3d9e325c9")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 155.956 57.404 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3270,7 +3270,7 @@
 		(instances
 			(project "psu-ext"
 				(path "/3cca1064-5b2a-48a0-8872-f4d00db38e9c/6880c4ba-b120-4f34-82be-c3193c5ae748"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -3449,7 +3449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2dbac76e-707d-449d-bbc9-6ef3e261fb77")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR09"
 			(at 105.41 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -3509,7 +3509,7 @@
 		(instances
 			(project "psu-ext"
 				(path "/3cca1064-5b2a-48a0-8872-f4d00db38e9c/6880c4ba-b120-4f34-82be-c3193c5ae748"
-					(reference "#PWR025")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3697,7 +3697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49151b83-2a55-4a2e-b3ae-6dcd2281e04c")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR08"
 			(at 85.09 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -3757,7 +3757,7 @@
 		(instances
 			(project "psu-ext"
 				(path "/3cca1064-5b2a-48a0-8872-f4d00db38e9c/6880c4ba-b120-4f34-82be-c3193c5ae748"
-					(reference "#PWR027")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4028,7 +4028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f5f45c9-53bb-472b-a6d0-9c9a45458c35")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR07"
 			(at 80.01 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4088,7 +4088,7 @@
 		(instances
 			(project "psu-ext"
 				(path "/3cca1064-5b2a-48a0-8872-f4d00db38e9c/6880c4ba-b120-4f34-82be-c3193c5ae748"
-					(reference "#PWR023")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4384,7 +4384,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9228f423-4974-4c62-a178-454520e095e9")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 169.926 42.164 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4446,7 +4446,7 @@
 		(instances
 			(project "psu-ext"
 				(path "/3cca1064-5b2a-48a0-8872-f4d00db38e9c/6880c4ba-b120-4f34-82be-c3193c5ae748"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4464,7 +4464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa1fa144-0aea-4603-91fa-6deb0201791a")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR05"
 			(at 33.02 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -4524,7 +4524,7 @@
 		(instances
 			(project "psu-ext"
 				(path "/3cca1064-5b2a-48a0-8872-f4d00db38e9c/6880c4ba-b120-4f34-82be-c3193c5ae748"
-					(reference "#PWR029")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4703,7 +4703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1aea078-428a-4250-996a-e909ed98cace")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR06"
 			(at 33.02 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4763,7 +4763,7 @@
 		(instances
 			(project "psu-ext"
 				(path "/3cca1064-5b2a-48a0-8872-f4d00db38e9c/6880c4ba-b120-4f34-82be-c3193c5ae748"
-					(reference "#PWR028")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4860,7 +4860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed2c2e2c-fc16-4061-a119-d4395e8d9122")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR011"
 			(at 190.5 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4920,7 +4920,7 @@
 		(instances
 			(project "psu-ext"
 				(path "/3cca1064-5b2a-48a0-8872-f4d00db38e9c/6880c4ba-b120-4f34-82be-c3193c5ae748"
-					(reference "#PWR026")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -5035,7 +5035,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f976c814-bff9-405b-aa22-a60c303d306e")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR010"
 			(at 134.62 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -5095,7 +5095,7 @@
 		(instances
 			(project "psu-ext"
 				(path "/3cca1064-5b2a-48a0-8872-f4d00db38e9c/6880c4ba-b120-4f34-82be-c3193c5ae748"
-					(reference "#PWR035")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)

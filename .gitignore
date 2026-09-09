@@ -5,3 +5,5 @@ electronics/psu-ext-backups
 electronics/.history
 
 /mechanical/enclosure/*.FCBak
+electronics/lib/external/symbols-maxeelabs.bak
+electronics/jlcpcb/

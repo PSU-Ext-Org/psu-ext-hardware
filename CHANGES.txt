@@ -13,3 +13,16 @@ LM321, small offset would allow correct current measurments between 0 and 5 mA, 
 by seting offset to 3V one can measure current into 2 directions but with less resolution.
 - Marked C16 - IO0 debounce cap as do-not-populate as it forces ESP32 into download mode on 
 first start
+
+2026-09-09 v. 1.3.0 (work in progress):
+- Added input buffering and a negative rail for near-zero measurements.
+- Split the front end into ADC/current and voltage schematic sheets and updated
+  the PCB and project configuration.
+- Added the MaxEELabs symbol library, with copyright and CERN-OHL-S v2 license
+  information recorded separately in LICENSES/dep5.
+
+Work in progress: the generated outputs still need to be updated.
+- TODO: Update the BOM.
+- TODO: Update the CPL (pick-and-place file).
+- TODO: Update the schematic export.
+- TODO: Update the Gerbers.
