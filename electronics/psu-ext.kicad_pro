@@ -50,7 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.2,
+          "min_island_area": 10.0,
+          "min_thickness": 0.2,
+          "pad_connection": 2,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.2,
+          "thermal_relief_spoke_width": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -108,6 +124,22 @@
         [
           "drill_out_of_range|187900000|126579995|c03762c1-5f44-4833-93ad-95bfd98d69da|00000000-0000-0000-0000-000000000000",
           "Fine with JLC and Elecrow"
+        ],
+        [
+          "hole_clearance|187099999|91279995|9e0ad4f9-af97-46b9-9887-4ed88799b3a7|e27bca75-b68e-4fd3-8418-eb2c87f57987",
+          ""
+        ],
+        [
+          "hole_clearance|187299999|91279995|2a66961b-023d-4e77-b2dd-93236a8d57a2|e27bca75-b68e-4fd3-8418-eb2c87f57987",
+          ""
+        ],
+        [
+          "hole_clearance|192699999|91279995|fa7238c0-03d2-4e5c-885c-98caf1644173|34c87ba5-5ac9-4b43-a178-369f3eb8ed4f",
+          ""
+        ],
+        [
+          "hole_clearance|192899999|91279995|a092648d-0f5a-452c-b944-b5161f32aeba|34c87ba5-5ac9-4b43-a178-369f3eb8ed4f",
+          ""
         ],
         [
           "silk_edge_clearance|175800000|135039995|3c477b58-3461-4e9a-b35e-e980f3b9516d|518993a7-d8fa-4b2b-aa4e-d4a0a0664440",
@@ -306,7 +338,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "1.2.1"
+      "sch_revision": "1.3.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -651,6 +683,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -899,7 +932,7 @@
         "uuid": "3cca1064-5b2a-48a0-8872-f4d00db38e9c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D1-15,#PWR1-51,#PWR53-57,C1-38,J1-3,R1-46,U1-12,TP1-7,H1-11,K1,PS1,Q1,SW1-2,Y1",
     "variants": []
   },
   "sheets": [
@@ -921,7 +954,11 @@
     ],
     [
       "8382cf51-befd-44eb-9cec-01756b7c42d3",
-      "FrontEnd"
+      "FrontEnd ADC"
+    ],
+    [
+      "284031bb-95f3-41d1-9c76-36a65272dfe7",
+      "FrontEnd Volt"
     ]
   ],
   "text_variables": {},

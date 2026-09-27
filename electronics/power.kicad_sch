@@ -7,9 +7,9 @@
 	(title_block
 		(title "PSU-EXT Power")
 		(date "2026-08-08")
-		(rev "1.2.1")
+		(rev "1.3.0")
 		(company "MaxEELabs")
-		(comment 3 "This hardware design is licensed under CERN-OHL-S v2.\nCopyright © 2026 PSU-EXT Authors: https://github.com/PSU-Ext-Org/psu-ext")
+		(comment 3 "This hardware design is licensed under CERN-OHL-S v2.\nCopyright © 2026 PSU-EXT Authors: https://github.com/PSU-Ext-Org")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -2319,7 +2319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bdd9df1-696d-4435-bf1e-b5c2c85b1109")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR012"
 			(at 50.8 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -2379,7 +2379,7 @@
 		(instances
 			(project "psu-ext"
 				(path "/3cca1064-5b2a-48a0-8872-f4d00db38e9c/a36a9185-8ef9-489e-a90b-e97807187edb"
-					(reference "#PWR06")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -2477,7 +2477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6026ea27-07f4-48eb-89c1-28f61a1fff27")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR014"
 			(at 160.02 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -2537,7 +2537,7 @@
 		(instances
 			(project "psu-ext"
 				(path "/3cca1064-5b2a-48a0-8872-f4d00db38e9c/a36a9185-8ef9-489e-a90b-e97807187edb"
-					(reference "#PWR03")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -3017,7 +3017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad6460d8-cf0d-463b-8818-c68c97190833")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR013"
 			(at 119.38 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3077,7 +3077,7 @@
 		(instances
 			(project "psu-ext"
 				(path "/3cca1064-5b2a-48a0-8872-f4d00db38e9c/a36a9185-8ef9-489e-a90b-e97807187edb"
-					(reference "#PWR02")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)

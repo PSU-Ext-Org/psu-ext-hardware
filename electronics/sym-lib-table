@@ -1,4 +1,5 @@
 (sym_lib_table
 	(version 7)
 	(lib (name "Snapeda Symbols") (type "KiCad") (uri "${KIPRJMOD}/lib/external/symbols-snapeda.kicad_sym") (options "") (descr "SnapEDA derived symbols https://www.snapeda.com/"))
+	(lib (name "MaxEELabs Symbols") (type "KiCad") (uri "${KIPRJMOD}/lib/external/symbols-maxeelabs.kicad_sym") (options "") (descr "MaxEELabs symbols for PSU-EXT project"))
 )

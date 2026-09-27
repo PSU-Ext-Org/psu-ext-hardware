@@ -16,7 +16,9 @@ Files: .gitignore
  electronics/esp32.kicad_sch
  electronics/exports/schematic.pdf
  electronics/fp-lib-table
- electronics/front-end.kicad_sch
+ electronics/front-end-adc-c.kicad_sch
+ electronics/front-end-voltage.kicad_sch
+ electronics/lib/external/symbols-maxeelabs.kicad_sym
  electronics/power.kicad_sch
  electronics/psu-ext.kicad_pcb
  electronics/psu-ext.kicad_prl
