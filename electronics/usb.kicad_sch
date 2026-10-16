@@ -3209,7 +3209,7 @@
 		(dnp no)
 		(uuid "0ef45ac6-d717-490f-a3c7-a9b3d9e325c9")
 		(property "Reference" "R4"
-			(at 155.956 57.404 90)
+			(at 155.194 57.404 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3218,8 +3218,8 @@
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 155.956 59.436 90)
+		(property "Value" "2k"
+			(at 155.194 59.436 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3297,8 +3297,8 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
-			(at 139.446 58.928 90)
+		(property "Value" "2k"
+			(at 139.446 59.944 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3944,9 +3944,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "6ebb822e-f1c5-4369-b4f2-71e7e038b2a1")
 		(property "Reference" "TP1"
@@ -4536,9 +4536,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c68a4d7b-76ae-4444-923c-5778289f3b9d")
@@ -4775,9 +4775,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e356bd44-7e0d-467b-ba5b-1018e90918cf")

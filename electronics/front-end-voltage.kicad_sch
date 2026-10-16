@@ -2601,7 +2601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13752deb-b4a5-4d3d-a7fd-7fedd3a25627")
-		(property "Reference" "R37"
+		(property "Reference" "R38"
 			(at 49.53 27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2663,7 +2663,7 @@
 		(instances
 			(project "psu-ext"
 				(path "/3cca1064-5b2a-48a0-8872-f4d00db38e9c/284031bb-95f3-41d1-9c76-36a65272dfe7"
-					(reference "R37")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -2680,7 +2680,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a669662-55e2-4ac5-973d-fd00807dadae")
-		(property "Reference" "R45"
+		(property "Reference" "R46"
 			(at 123.19 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2742,7 +2742,7 @@
 		(instances
 			(project "psu-ext"
 				(path "/3cca1064-5b2a-48a0-8872-f4d00db38e9c/284031bb-95f3-41d1-9c76-36a65272dfe7"
-					(reference "R45")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -2760,7 +2760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24f38c0b-6eda-47bd-9e64-7a0311227023")
-		(property "Reference" "R38"
+		(property "Reference" "R39"
 			(at 58.42 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2822,7 +2822,7 @@
 		(instances
 			(project "psu-ext"
 				(path "/3cca1064-5b2a-48a0-8872-f4d00db38e9c/284031bb-95f3-41d1-9c76-36a65272dfe7"
-					(reference "R38")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -3255,9 +3255,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30571b5a-5406-4ef3-af48-5a579625ecfd")
@@ -3340,7 +3340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3229bba0-a6ff-44fc-bcda-9db34b044eac")
-		(property "Reference" "R36"
+		(property "Reference" "R37"
 			(at 48.26 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3402,7 +3402,7 @@
 		(instances
 			(project "psu-ext"
 				(path "/3cca1064-5b2a-48a0-8872-f4d00db38e9c/284031bb-95f3-41d1-9c76-36a65272dfe7"
-					(reference "R36")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -3498,7 +3498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "391443da-bd6e-4e0b-a401-22b747b9d007")
-		(property "Reference" "R39"
+		(property "Reference" "R40"
 			(at 59.69 27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3560,7 +3560,7 @@
 		(instances
 			(project "psu-ext"
 				(path "/3cca1064-5b2a-48a0-8872-f4d00db38e9c/284031bb-95f3-41d1-9c76-36a65272dfe7"
-					(reference "R39")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -3733,7 +3733,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54feceeb-2dd9-452e-ad07-ed606d216afc")
-		(property "Reference" "R40"
+		(property "Reference" "R41"
 			(at 58.674 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3797,7 +3797,7 @@
 		(instances
 			(project "psu-ext"
 				(path "/3cca1064-5b2a-48a0-8872-f4d00db38e9c/284031bb-95f3-41d1-9c76-36a65272dfe7"
-					(reference "R40")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -4408,7 +4408,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7bfec8d7-6b70-49b8-af3f-3e5fcf64bd31")
-		(property "Reference" "R41"
+		(property "Reference" "R42"
 			(at 60.452 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4472,7 +4472,7 @@
 		(instances
 			(project "psu-ext"
 				(path "/3cca1064-5b2a-48a0-8872-f4d00db38e9c/284031bb-95f3-41d1-9c76-36a65272dfe7"
-					(reference "R41")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -4752,7 +4752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8783b332-cc15-4e21-8e04-f626dd2df952")
-		(property "Reference" "R42"
+		(property "Reference" "R43"
 			(at 110.49 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4816,7 +4816,7 @@
 		(instances
 			(project "psu-ext"
 				(path "/3cca1064-5b2a-48a0-8872-f4d00db38e9c/284031bb-95f3-41d1-9c76-36a65272dfe7"
-					(reference "R42")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -4911,7 +4911,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c522d0d-fbbb-4b4c-a7c5-cb416792beb7")
-		(property "Reference" "R44"
+		(property "Reference" "R45"
 			(at 123.19 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4973,7 +4973,7 @@
 		(instances
 			(project "psu-ext"
 				(path "/3cca1064-5b2a-48a0-8872-f4d00db38e9c/284031bb-95f3-41d1-9c76-36a65272dfe7"
-					(reference "R44")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -5226,7 +5226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca1498d9-cd07-4df3-ac6e-286d9916fb3a")
-		(property "Reference" "R43"
+		(property "Reference" "R44"
 			(at 110.49 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5290,7 +5290,7 @@
 		(instances
 			(project "psu-ext"
 				(path "/3cca1064-5b2a-48a0-8872-f4d00db38e9c/284031bb-95f3-41d1-9c76-36a65272dfe7"
-					(reference "R43")
+					(reference "R44")
 					(unit 1)
 				)
 			)
