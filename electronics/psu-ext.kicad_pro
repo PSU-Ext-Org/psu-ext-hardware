@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.0,
-          "height": 1.152,
-          "width": 1.152
+          "drill": 0.0,
+          "height": 1.5,
+          "width": 1.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -263,6 +263,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -274,6 +275,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -285,6 +287,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -338,7 +341,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "1.3.0"
+      "sch_revision": "1.3.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -567,6 +570,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -644,8 +648,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": [
       {
         "netclass": "USB_90R",
@@ -932,7 +936,7 @@
         "uuid": "3cca1064-5b2a-48a0-8872-f4d00db38e9c"
       }
     ],
-    "used_designators": "D1-15,#PWR1-51,#PWR53-57,C1-38,J1-3,R1-46,U1-12,TP1-7,H1-11,K1,PS1,Q1,SW1-2,Y1",
+    "used_designators": "#PWR1-51,#PWR53-57,C1-38,D1-15,H1-11,J1-3,K1,PS1,Q1,R1-46,SW1-2,TP1-7,U1-12,Y1",
     "variants": []
   },
   "sheets": [
