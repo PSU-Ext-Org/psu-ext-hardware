@@ -14,15 +14,20 @@ by seting offset to 3V one can measure current into 2 directions but with less r
 - Marked C16 - IO0 debounce cap as do-not-populate as it forces ESP32 into download mode on 
 first start
 
-2026-09-09 v. 1.3.0 (work in progress):
+2026-09-09 v. 1.3.0:
 - Added input buffering and a negative rail for near-zero measurements.
 - Split the front end into ADC/current and voltage schematic sheets and updated
   the PCB and project configuration.
 - Added the MaxEELabs symbol library, with copyright and CERN-OHL-S v2 license
   information recorded separately in LICENSES/dep5.
 
-Work in progress: the generated outputs still need to be updated.
-- TODO: Update the BOM.
-- TODO: Update the CPL (pick-and-place file).
-- TODO: Update the schematic export.
-- TODO: Update the Gerbers.
+2026-10-26 v. 1.3.1:
+- Moved the -3V3 test point to the top side of the PCB.
+- Added a pull-up resistor to IO3, the JTAG strapping pin.
+- Made minor PCB layout changes.
+- Updated the BOM, CPL (pick-and-place file), schematic export, and Gerbers.
+
+2026-10-29 v. 1.3.2 (pending commit):
+- Changed the USB power switch (U2) to AP2151DWG-7, with a 0.8 A current limit.
+- Updated the schematic and PCB revision and date.
+- Regenerated the BOM, CPL (pick-and-place file), schematic export, and Gerbers.
