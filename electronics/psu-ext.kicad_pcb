@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "PSU-EXT")
-		(date "2026-08-08")
-		(rev "1.3.1")
+		(date "2026-10-29")
+		(rev "1.3.2")
 		(company "MaxEELabs")
 	)
 	(layers
@@ -6251,6 +6251,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12411,7 +12412,7 @@
 				)
 			)
 		)
-		(property "Value" "AP22818AKEWT"
+		(property "Value" "AP2151DWG-7"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "d4d8c188-f985-4e4e-ad1c-7806ca655e3d")
@@ -12422,7 +12423,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP22816_17_18.pdf"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/175/1/AP2141D_51D.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12433,7 +12434,7 @@
 				)
 			)
 		)
-		(property "Description" "Current limited 2.0A power switch, single channel, SOT-23-5"
+		(property "Description" "Current limited 0.8A power switch, single channel, SOT-23-5"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12456,7 +12457,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5587934"
+		(property "LCSC" "C264075"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -34305,6 +34306,46 @@
 		(uuid "ee7e0259-1b91-4931-b5b8-ec2f28ecbef1")
 	)
 	(segment
+		(start 156 107.544297)
+		(end 156 109.3)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(R35-Pad2)")
+		(uuid "596be791-7017-4f92-9205-7eeb4f5f9bf2")
+	)
+	(segment
+		(start 156.9 114.05)
+		(end 156.9 116.624999)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(R35-Pad2)")
+		(uuid "750fdd6a-c58b-4a6c-89c3-c58e7bb9e1fe")
+	)
+	(segment
+		(start 157.5 110.8)
+		(end 157.5 113.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(R35-Pad2)")
+		(uuid "9f066ec7-3fa1-40b8-8346-5ff58bd87284")
+	)
+	(segment
+		(start 157.5 113.45)
+		(end 156.9 114.05)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(R35-Pad2)")
+		(uuid "d0ede171-13c8-4dc6-ac7b-7e6059c1d7c6")
+	)
+	(segment
+		(start 156 109.3)
+		(end 157.5 110.8)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(R35-Pad2)")
+		(uuid "e2d09e33-e782-4284-ad86-2a1abe50e843")
+	)
+	(segment
 		(start 153.46 108.86)
 		(end 153.5 108.9)
 		(width 0.2)
@@ -37035,6 +37076,14 @@
 		(uuid "f82ec6af-3afa-4162-bf98-a96293c014c8")
 	)
 	(segment
+		(start 130.4125 107.7125)
+		(end 132.0375 107.7125)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "Net-(R38-Pad2)")
+		(uuid "98453d52-ce05-4564-ab7c-01381cd069be")
+	)
+	(segment
 		(start 128.5875 108.9375)
 		(end 128.5875 107.7125)
 		(width 0.2)
@@ -37235,14 +37284,6 @@
 		(uuid "bf11b091-b74d-4fee-a1d2-3ca09b3da7c5")
 	)
 	(segment
-		(start 135.850001 129.699996)
-		(end 135.85 131.699995)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "Net-(C29-Pad1)")
-		(uuid "970f6f7e-3348-451d-b0ac-5b5a13d2a0ce")
-	)
-	(segment
 		(start 157.1 103.424999)
 		(end 159.1 103.424999)
 		(width 0.2)
@@ -37257,6 +37298,14 @@
 		(layer "B.Cu")
 		(net "Net-(U9-+)")
 		(uuid "99f78963-eb9b-453c-b768-c416be073832")
+	)
+	(segment
+		(start 135.850001 129.699996)
+		(end 135.85 131.699995)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "Net-(C29-Pad1)")
+		(uuid "970f6f7e-3348-451d-b0ac-5b5a13d2a0ce")
 	)
 	(segment
 		(start 161.244999 120.679999)
@@ -37281,54 +37330,6 @@
 		(layer "B.Cu")
 		(net "Net-(U12-CAP-)")
 		(uuid "7b196178-dcda-4e37-98a0-d13e779e91ec")
-	)
-	(segment
-		(start 156 107.544297)
-		(end 156 109.3)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(R35-Pad2)")
-		(uuid "596be791-7017-4f92-9205-7eeb4f5f9bf2")
-	)
-	(segment
-		(start 156.9 114.05)
-		(end 156.9 116.624999)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(R35-Pad2)")
-		(uuid "750fdd6a-c58b-4a6c-89c3-c58e7bb9e1fe")
-	)
-	(segment
-		(start 157.5 110.8)
-		(end 157.5 113.45)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(R35-Pad2)")
-		(uuid "9f066ec7-3fa1-40b8-8346-5ff58bd87284")
-	)
-	(segment
-		(start 157.5 113.45)
-		(end 156.9 114.05)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(R35-Pad2)")
-		(uuid "d0ede171-13c8-4dc6-ac7b-7e6059c1d7c6")
-	)
-	(segment
-		(start 156 109.3)
-		(end 157.5 110.8)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(R35-Pad2)")
-		(uuid "e2d09e33-e782-4284-ad86-2a1abe50e843")
-	)
-	(segment
-		(start 130.4125 107.7125)
-		(end 132.0375 107.7125)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "Net-(R38-Pad2)")
-		(uuid "98453d52-ce05-4564-ab7c-01381cd069be")
 	)
 	(zone
 		(net "GNDS")

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "PSU-EXT USB")
-		(date "2026-08-08")
-		(rev "1.3.1")
+		(date "2026-10-29")
+		(rev "1.3.2")
 		(company "MaxEELabs")
 		(comment 3 "This hardware design is licensed under CERN-OHL-S v2.\nCopyright © 2026 PSU-EXT Authors: https://github.com/PSU-Ext-Org")
 	)
@@ -3536,7 +3536,7 @@
 				)
 			)
 		)
-		(property "Value" "AP22818AKEWT"
+		(property "Value" "AP2151DWG-7"
 			(at 190.5 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3557,7 +3557,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP22816_17_18.pdf"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/175/1/AP2141D_51D.pdf"
 			(at 190.5 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -3568,7 +3568,7 @@
 				)
 			)
 		)
-		(property "Description" "Current limited 2.0A power switch, single channel, SOT-23-5"
+		(property "Description" "Current limited 0.8A power switch, single channel, SOT-23-5"
 			(at 190.5 36.83 0)
 			(hide yes)
 			(show_name no)
